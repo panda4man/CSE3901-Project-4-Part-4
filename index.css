@@ -1,10 +1,43 @@
+body{
+	background: #e2e1e1;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+	margin: auto;
+	border-collapse:collapse;
+	border: 0;
+}
+tr.a{
+	border-bottom: 5px solid black;
+}
+td.a{
+	height: 100px;
+	width: 100px;
+	border-right: 5px solid black;
+}
 td {
-	border: 1px solid black;
 	height: 100px;
 	width: 100px;
 }
 
+h1{
+	word-wrap: normal;
+	width: 260px;
+    margin: 0 auto;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
 button {
+	background-color: #e2e1e1;
+	border:0;
 	height: 100px;
 	width: 100px;
 }
+
+/* get rid of blue border after clicking button */
+button:focus {outline:0;}
