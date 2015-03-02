@@ -1,0 +1,22 @@
+Author: Dustin Stanley
+Description: This document outlines the testing done in order to validate the Tic-Tac-Toe game
+================
+
+Testing Records:
+
+The game uses an array to keep track of selected squares.
+
+The Tic Tac Toe game was tested in multiple web browers to make sure it would work for users using different web browers.
+
+
+The game was tested to make sure certain combinations of squares would promt the correct reuslt.
+
+The combination of board[0] board[1] board[2] for "O" prompts as a loss for the user (player X). This is the correct result.
+A board consiting of 0 three in a row combinations prompts as a tie (Cat's) game.  This is the correct result.
+All other three in a row combinations were tested to make sure a win prompt was executed.
+Along with these tests console.log() was used to make sure the selected square was correlating to the correct index of the array.
+These were taken out after testing was completed.
+
+Another test was to have the user select a square that has already been selected by either "X" or "O"
+This resulted in a prompt saying that square has already been taken.  This is the correct result.
+This scenario was tested when multiple X's and O's were on the board as well as when there was only one X and one O on the board.
